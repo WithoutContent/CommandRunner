@@ -164,7 +164,7 @@ Some functions require additional processing, so they can be enabled or disabled
 - Input:
     - `input("{Something}")` - input this will open a prompt window with a message that you can customize `{Something}`, then it will return whatever you typed in
 
-For more technical side, after pressing the hotkey, Command Runner will detect if custom functions are enable and if yes then which ones.
+From more technical side, after pressing the hotkey, Command Runner will detect if custom functions are enable and if yes then which ones.
 Then go in command and replace any functions with return values that they receive from those functions.
 
 ![Diagram of command going step by step throught custom functions applying process](img/diagram2.svg)
