@@ -469,8 +469,8 @@ class help_menu(tk.Menu):
         super().__init__(p,tearoff=False)
 
         self.add_command(label="Github",command=lambda: webbrowser.open("https://github.com/WithoutContent/CommandRunner"))
-        self.add_command(label="Custom functions documentation")
-        self.add_command(label="Advanced settings documentation")
+        self.add_command(label="Custom functions documentation",command=lambda: webbrowser.open("https://github.com/WithoutContent/CommandRunner#custom-functions"))
+        self.add_command(label="Advanced settings documentation",command=lambda: webbrowser.open("https://github.com/WithoutContent/CommandRunner#advanced-settings"))
 
 class window(tk.Tk):
     def __init__(self):
