@@ -9,8 +9,8 @@ Command Runner is a lightweight Windows automation utility that lets you bind co
 
 - [Features](#features)
 - [Why Command Runner](#why-command-runner)
-- [Examples](#examples)
 - [Installation](#installation)
+- [Examples](#examples)
 - [Quick start](#quick-start)
 - [How it works](#how-it-works)
 - [Custom functions](#custom-functions)
@@ -57,6 +57,16 @@ Create a shortcut that opens the selected file location.
 
 Run commands depending on the currently focused application.
 
+# Quick start
+
+1. [Install Command Runner.](#installation)
+2. Launch the application. If it is already running in the background, launch it again to open the GUI.
+3. Create a new command.
+4. Record a hotkey.
+5. Assign a command.
+6. Save.
+7. Press the hotkey anywhere in Windows.
+
 # Examples
 
 1. Reduce the number of commands you need to remember:
@@ -87,16 +97,6 @@ Run commands depending on the currently focused application.
 |Run Python|`python path()`|[Run_Python.json](examples/Run_Python.json)|
 |Force kill window|`taskkill /pid focus_pid() /f /t`|[Force_kill.json](examples/Force_kill.json)|
 |Quick search|`start https://www.google.com/search?q="board()"`|[Quick_search.json](examples/Quick_search.json)|
-
-# Quick start
-
-1. [Install Command Runner.](#installation)
-2. Launch the application. If it is already running in the background, launch it again to open the GUI.
-3. Create a new command.
-4. Record a hotkey.
-5. Assign a command.
-6. Save.
-7. Press the hotkey anywhere in Windows.
 
 # Installation
 
