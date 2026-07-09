@@ -100,7 +100,7 @@ Run commands depending on the currently focused application.
 
 # Installation
 
-Download the latest installer from the Releases page and run it like any other Windows application.
+Download the latest [installer](https://github.com/WithoutContent/CommandRunner/releases) from the Releases page and run it like any other Windows application.
 
 After installation, launch Command Runner from the Start Menu or the installation directory.
 
