@@ -51,7 +51,7 @@ Instead of remembering 10 commands for 10 different projects that use the same l
 
 ### File automation
 
-Create a shortcut that opens the selected file location:
+Create a shortcut that opens the selected file location.
 
 ### Window automation
 
@@ -73,7 +73,7 @@ Run commands depending on the currently focused application.
 3. Google copied text:
     - Command: `start https://www.google.com/search?q="board()"`
     - If value in clipboard is "How to Command Runner"
-    - Executed command: `start https://www.google.com/search?q=How to Command Runner`
+    - Executed command: `start https://www.google.com/search?q="How to Command Runner"`
 
 4. Different arguments:
     - Wants to one time open an app with console, another time in safe mode and another time some other way?
@@ -204,9 +204,8 @@ start "" "CommandRunner" --console
 > This will start Command Runner with console
 
 **List of arguments:**
-- `--console` - starts command runner with a console
+- `--console` - starts command runner with a console (remember to use it on the first process, since second process will always close -> [see](#how-it-works))
 - `--gui` - starts GUI on the first process
-(remember to use it on the first process, since second process will always close -> [see](#how-it-works))
 
 # Development Setup
 
@@ -218,7 +217,7 @@ In order to build the project you will have to install the [requirements](requir
 Next run [build.bat](build.bat). This will use PyInstaller to compile [main.py](src/main.py) and its modules. 
 After PyInstaller finishes, all assets from the asset folder are copied to the same directory as the executable. And that's it your app is ready to run.
 > [!NOTE]
-> This method uses --onedir, so it doesnt compile all the code into one exe file, but also another folder that needs to be present with the exe file.
+> This method uses --onedir, so it doesnt compile all the code into one exe file.
 
 # Known Limitations
 
