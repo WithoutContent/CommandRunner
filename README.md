@@ -106,6 +106,9 @@ After installation, launch Command Runner from the Start Menu or the installatio
 
 > No Python installation is required.
 
+> [!NOTE]
+> Because the installer is not digitally signed, Windows may display a SmartScreen warning or mark the downloaded file as blocked. If the installer doesn't launch, right-click it, select Properties, check Unblock (if available), and click Apply before running it.
+
 # How it works
 
 ![Diagram of how Command Runner work](img/diagram1.svg)
