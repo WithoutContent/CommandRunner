@@ -1,0 +1,23 @@
+{
+    "displayName": "Run_Python",
+    "command": "python path()",
+    "keybind": "",
+    "disabled": false,
+    "advanced": {
+        "enable": true,
+        "console": true,
+        "shell": true,
+        "suppress": false,
+        "trigger_on_release": false,
+        "key_timeout": 1
+    },
+    "functions": {
+        "enable": true,
+        "mouse": false,
+        "clipboard": false,
+        "path": true,
+        "system": false,
+        "window": false,
+        "input": false
+    }
+}

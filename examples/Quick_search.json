@@ -1,0 +1,23 @@
+{
+    "displayName": "Quick_search",
+    "command": "start https://www.google.com/search?q=\"board()\"",
+    "keybind": "",
+    "disabled": false,
+    "advanced": {
+        "enable": true,
+        "console": false,
+        "shell": true,
+        "suppress": false,
+        "trigger_on_release": false,
+        "key_timeout": 1
+    },
+    "functions": {
+        "enable": true,
+        "mouse": false,
+        "clipboard": true,
+        "path": false,
+        "system": false,
+        "window": false,
+        "input": false
+    }
+}

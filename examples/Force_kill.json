@@ -1,0 +1,23 @@
+{
+    "displayName": "Force_kill",
+    "command": "taskkill /pid focus_pid() /f /t",
+    "keybind": "",
+    "disabled": false,
+    "advanced": {
+        "enable": false,
+        "console": false,
+        "shell": false,
+        "suppress": false,
+        "trigger_on_release": false,
+        "key_timeout": 1
+    },
+    "functions": {
+        "enable": true,
+        "mouse": false,
+        "clipboard": false,
+        "path": false,
+        "system": false,
+        "window": true,
+        "input": false
+    }
+}

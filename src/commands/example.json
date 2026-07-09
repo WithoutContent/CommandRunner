@@ -1,0 +1,23 @@
+{
+    "displayName": "Example",
+    "command": "start cmd /c \\\"echo Hello World && pause\\\"\\n\n",
+    "keybind": "CTRL+Q",
+    "disabled": false,
+    "advanced": {
+        "enable": true,
+        "console": false,
+        "shell": true,
+        "suppress": false,
+        "trigger_on_release": false,
+        "key_timeout": 1
+    },
+    "functions": {
+        "enable": false,
+        "mouse": false,
+        "clipboard": false,
+        "path": false,
+        "system": false,
+        "window": false,
+        "input": false
+    }
+}
