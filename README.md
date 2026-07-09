@@ -204,7 +204,8 @@ start "" "CommandRunner" --console
 > This will start Command Runner with console
 
 **List of arguments:**
-- `--console` - starts command runner with a console 
+- `--console` - starts command runner with a console
+- `--gui` - starts GUI on the first process
 (remember to use it on the first process, since second process will always close -> [see](#how-it-works))
 
 # Development Setup
