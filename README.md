@@ -18,7 +18,6 @@ Command Runner is a lightweight Windows automation utility that lets you bind co
 - [Arguments](#arguments)
 - [Development setup](#development-setup)
 - [Known limitations](#known-limitations)
-- [Roadmap](#roadmap)
 - [Security](#security)
 - [License](#license)
 
@@ -227,14 +226,6 @@ After PyInstaller finishes, all assets from the asset folder are copied to the s
 - Currently tested only on Windows 11.
 - Uses global hotkeys.
 - The Suppress option does not suppress every key combination in all applications.
-
-# Roadmap
-
-- [ ] More stability
-- [ ] Better crash assistant
-- [ ] Wider portability
-- [ ] GUI themes
-- [ ] Better user customization
 
 # Security
 
