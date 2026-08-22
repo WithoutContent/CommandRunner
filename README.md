@@ -219,7 +219,7 @@ In order to build the project you will have to install the [requirements](requir
 Next run [build.bat](build.bat). This will use PyInstaller to compile [main.py](src/main.py) and its modules. 
 After PyInstaller finishes, all assets from the asset folder are copied to the same directory as the executable. And that's it your app is ready to run.
 > [!NOTE]
-> If you choose option onedir, it wont compile the code into one executable file, but into executable file and files it needs to function with.
+> If you choose option onedir, it wont compile the code into one executable, but into executable and files that it needs to function with.
 
 # Known Limitations
 
