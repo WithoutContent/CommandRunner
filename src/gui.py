@@ -487,6 +487,7 @@ class window(tk.Tk):
         self.columnconfigure(2,weight=4)
         self.rowconfigure(0,weight=1)
 
+        self.lift()
         self.protocol("WM_DELETE_WINDOW", close)
 
 def create_window(COMMAND_DIR,retrive_data,reset_hotkeys,terminate):
