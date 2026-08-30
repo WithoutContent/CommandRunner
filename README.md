@@ -99,8 +99,9 @@ Run commands depending on the currently focused application.
 
 # Installation
 
-[1.0]] Download the latest [installer](https://github.com/WithoutContent/CommandRunner/releases) from the Releases page and run it like any other Windows application. After installation, launch Command Runner from the Start Menu or the installation directory.
-[1.1] Download either the onefile or onedir zip file and luanch the exe file.
+`[1.0]` Download the latest [installer](https://github.com/WithoutContent/CommandRunner/releases) from the Releases page and run it like any other Windows application. After installation, launch Command Runner from the Start Menu or the installation directory.
+
+`[1.1]` Download either the onefile or onedir zip file and luanch the exe file.
 
 > No Python installation is required.
 
